@@ -1,6 +1,8 @@
 # GroupTalk
  In this project, a firebase application has been developed where everyone unites in a common channel and exchanges messages.
 
+ Firebase and kotlin coroutines libraries are used to make processes work without occupying the mainThread.
+
 ![gt-1](https://github.com/VeyselUstuntas/GroupTalk/assets/70425868/76a97faa-3fcd-42e5-8c4f-797525d44ed5)
 
 
