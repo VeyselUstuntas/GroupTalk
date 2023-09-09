@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#F1F1F1"
+    android:layout_margin="5dp"
+    >
+
+    <TextView
+        android:id="@+id/recycler_row_userMailAddressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="veysel@gmail.com"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#00786D"
+        android:layout_gravity="right"
+        android:paddingRight="7dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"/>
+    <TextView
+        android:id="@+id/recycler_row_userMessageTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:padding="3dp"
+        android:text="deneme mesajı"/>
+
+</LinearLayout>

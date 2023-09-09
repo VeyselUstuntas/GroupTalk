@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragment.SignUp"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/signUp_mailAddress_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:hint="Enter Your E-Mail Address"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <EditText
+        android:id="@+id/signUp_password_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:hint="Enter Your Password"
+        android:padding="15dp"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+    <CheckBox
+        android:id="@+id/signUp_showPassword_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Password"
+        android:layout_gravity="right"
+        android:layout_marginBottom="15dp"/>
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="26sp"
+        android:padding="5dp"
+        app:cornerRadius = "7dp"
+        android:onClick="signUp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+</LinearLayout>
